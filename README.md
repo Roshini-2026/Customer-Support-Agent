@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  An intelligent, <strong>LangGraph-powered</strong> AI customer support agent for Airtel — capable of classifying queries, detecting sentiment, routing to specialized handlers, and escalating frustrated customers, all through a sleek <strong>ChatGPT-style</strong> Streamlit interface.
+  An intelligent, <strong>LangGraph-powered</strong> AI customer support agent for Airtel — capable of classifying queries, detecting sentiment, routing to specialized handlers, and escalating frustrated customers, all through a <strong>Chatbot-style</strong> Streamlit interface.
 </p>
 
 </div>
@@ -266,28 +266,12 @@ langchain-core     # Core abstractions for LangChain
 langchain-community # Community tools and loaders
 streamlit          # Web UI framework
 python-dotenv      # .env file loader
-langchain_tavily   # Tavily web search tool
-feedparser         # RSS/Atom feed parsing
-duckduckgo-search  # DuckDuckGo search integration
-reportlab          # PDF report generation
 ```
 
 Install all at once:
 
 ```bash
 pip install -r requirements.txt
-```
-
----
-
-## 🔒 Security
-
-- **API keys** are stored in `.env` and are **never hardcoded** in source files
-- The `.env` file is listed in `.gitignore` and will **not be tracked by Git**
-- Before pushing to a public repository, verify no secrets are exposed:
-
-```bash
-git diff --cached  # Review staged changes before committing
 ```
 
 ---
