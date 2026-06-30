@@ -3,7 +3,6 @@ from langgraph.graph import StateGraph, END,START
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_groq import ChatGroq
 
-from IPython.display import display, Image
 from langchain_core.runnables.graph import MermaidDrawMethod
 from dotenv import load_dotenv
 import os
